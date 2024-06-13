@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="this is the code for our assignment 2">
+  <meta name="robots" content="no index,no follow">
+  <title>Pizza</title>
+  <link rel="stylesheet" href="./assignm.css">
+</head>
+
+<body>
+  <header>
+    <img src="img/img3.jpg" alt="Pizza Palace Logo">
+    <h1>Pizza Palace</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="menu">
+      <h2>Deals for the week</h2>
+      <ul>
+        <li>
+          <h3>Cheese Lover's Delight</h3>
+          <p>A classic cheese pizza with melted mozzarella and parmesan cheese.</p>
+          <span>$12.99</span>
+        </li>
+        <li>
+          <h3>Meat Lover's Masterpiece</h3>
+          <p>A hearty pizza loaded with pepperoni, sausage, bacon, and ham.</p>
+          <span>$19.99</span>
+        </li>
+        <li>
+          <h3>Veggie Delight</h3>
+          <p>A flavorful pizza topped with mushrooms, onions, bell peppers, and olives.</p>
+          <span>$14.99</span>
+        </li>
+      </ul>
+    </section>
+
+
+    <form action="/pizza.php">
+
+      <section id="Order">
+        <h2>Order Your Pizza</h2>
+
+        <b>Quantity:</b>
+        <select name="quantity">
+          <option id="1">1</option>
+          <option id="2">2</option>
+          <option id="3">3</option>
+          <option id="4">4</option>
+          <option id="5">5</option>
+          <option id="6">6</option>
+          <option id="7">7</option>
+          <option id="8">8</option>
+          <option id="9">9</option>
+          <option id="10">10</option>
+          <option id="11">11</option>
+          <option id="12">12</option>
+        </select>
+        <pre>
+        </pre>
+
+        <label for="size"><b>Size:</b></label>
+        <p></p>
+        <input type="radio" id="size" name="size" value="small">small<p></p>
+
+        <label for="size1"></label>
+        <input type="radio" id="size1" name="size" value="medium">medium<p></p>
+
+        <label for="size2"></label>
+        <input type="radio" id="size2" name="size" value="large">large<p></p>
+
+        <label for="size3"></label>
+        <input type="radio" id="size3" name="size" value="extra_large">extra large<br><br>
+
+
+
+        <label for="toppings"><b>Toppings:</b></label>
+        <p></p>
+        <input type="checkbox" id="toppings" name="toppings" value="butter_chicken">butter chicken<p></p>
+
+        <label for="toppings1"></label>
+        <input type="checkbox" id="toppings1" name="toppings" value="margherita">margherita<p></p>
+
+        <label for="toppings2"></label>
+        <input type="checkbox" id="toppings2" name="toppings" value="tandoori_paneer">tandoori paneer<p></p>
+
+        <label for="toppings3"></label>
+        <input type="checkbox" id="toppings3" name="toppings" value="garlic_bread">garlic bread<p></p>
+
+        <label for="toppings4"></label>
+        <input type="checkbox" id="toppings4" name="toppings" value="pineapple">pineapple<br><br>
+
+
+        <label for="service"><b>Service Type:</b></label>
+        <p></p>
+        <input type="radio" id="service" name="service" value="normal"> normal
+
+        <label for="service1"></label>
+        <input type="radio" id="service1" name="service" value="premium"> premium($5 extra)<br><br>
+
+        <label for="ranch"><b>Ranch?</b></label>
+        <p></p>
+        <input type="radio" id="ranch" name="ranch" value="yes">yes
+
+        <label for="ranch1"></label>
+        <input type="radio" id="ranch1" name="ranch" value="no">no<br><br>
+
+
+
+
+        <h4>Your details:</h4><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <br><br>
+
+
+        <button type="submit">Submit</button>
+      </section>
+    </form>
+
+
+  </main>
+  <footer>
+    <h2>About Us</h2>
+    <p>Pizza Palace is a family-owned and operated pizzeria dedicated to serving the best pizzas in town. Our chefs use
+      only the freshest ingredients to craft delicious pies that will satisfy any appetite.</p>
+  </footer>
+</body>
+
+</html>
