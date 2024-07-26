@@ -1,0 +1,121 @@
+/* Resetting margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+}
+
+/* Background image styling */
+.background-image {
+    background-image: url("../img/interstellar\ movie\ poster\ incomplete.jpg"); /* setting movie postre as background imagr */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 270vh; /* the background image should cover the full viewport height */
+    position: relative;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-left img {
+    max-width: 115px;/* left logo size */
+}
+
+.logo-right img {
+    max-width: 115px; /* right logo size */
+}
+
+/* Content styling */
+.content {
+    width: 100%;
+    max-width: 100%; /* setting maximum width*/
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h4{
+    font-family: "Raleway", sans-serif; /* setting fonts for different headings */
+    
+}
+
+h2{
+    font-family: "Playfair Display", sans-serif;
+}
+
+h5{
+    font-family: "DM Serif Display", sans-serif;
+}
+
+/* Heading styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/* setting size and colour of different headings */
+
+h1 {
+    font-size: 18px;
+    color: #023020;
+}
+
+h2 {
+    font-size: 22px;
+    color: #023020;
+}
+
+h3 {
+    font-size: 36px;
+    color: #023020;
+}
+
+h4 {
+    font-size: 43px;
+    color:black;
+}
+
+h5 {
+    font-size: 90px;
+    color: black;
+    margin-top: 5px;
+}
+
+h6{
+    font-size: 40px;
+}
+
+.sl {
+    color: #f0f0f0; /* specially targeted by creating class of headings to give them different colour */
+}
+
+.kk {
+    color:white; /* specially targeted by creating class of headings to give them different colour */
+}
+
+/* Link styling */
+a {
+    color: black; /* styling colour of INTERSTELLAR movie link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;/* pop up when cursor come on INTERSTELLAR link */
+}
